@@ -1,4 +1,4 @@
-# 💅 React-table front-end coding challenge
+# 💅 React-table front-end coding challenge with github actions
 
 This will have interaction with the table like filtering and sorting
 
