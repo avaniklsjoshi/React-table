@@ -1,0 +1,14 @@
+.app {
+	margin: 24px;
+	display: flex;
+	flex-direction: column;
+	font-size: var(--font-size);
+	height: -webkit-fill-available;
+}
+.tableContainer {
+	flex-grow: 1;
+	overflow: scroll;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}

@@ -1,0 +1,21 @@
+@import "./styling/colors.scss";
+
+body {
+	--font-size: 14px;
+
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	height: 100vh;
+	overflow: auto;
+	background: $colorBlack;
+	color: $colorPurple50;
+}
+
+#root {
+	height: 100%;
+}
+
+* {
+	overflow: hidden; /* or auto */
+}

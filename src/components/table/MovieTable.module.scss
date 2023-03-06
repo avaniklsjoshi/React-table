@@ -1,0 +1,58 @@
+@import "../../styling/colors.scss";
+
+.table {
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	.tableHeaderCell {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 8px;
+		min-width: 145px;
+		svg {
+			padding-left: 4px;
+			fill: $colorPurple100;
+		}
+	}
+
+	thead tr:last-child {
+		border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+		background-color: $colorLightGray200;
+		color: $colorPurple300;
+	}
+	tbody {
+		background-color: $colorLightGray200;
+
+		tr {
+			border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+			&:hover {
+				background-color: rgba(0, 0, 0, 0.5);
+			}
+		}
+		tr:nth-child(2n) {
+			background-color: $colorLightGray300;
+			&:hover {
+				background-color: rgba(0, 0, 0, 0.5);
+			}
+		}
+	}
+	td {
+		padding: 20px 10px;
+		text-align: center;
+	}
+}
+.numberOfRows {
+	min-height: 16px;
+	color: $colorPurple200;
+}
+.filterInput {
+	margin: 8px;
+	outline: none;
+	min-height: 24px;
+	background: $colorPurple500;
+	color: $colorWhite;
+	border-radius: 3px;
+	border: 1px solid $colorPurple400;
+}

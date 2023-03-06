@@ -1,0 +1,37 @@
+{
+	"name": "react-table",
+	"version": "1.0.0",
+	"dependencies": {
+		"@tanstack/match-sorter-utils": "^8.7.6",
+		"@tanstack/react-table": "^8.7.9",
+		"moment": "^2.29.4",
+		"react": "18.2.0",
+		"react-dom": "18.2.0"
+	},
+	"devDependencies": {
+		"@testing-library/user-event": "^14.4.3",
+		"@testing-library/jest-dom": "5.16.5",
+		"@testing-library/react": "13.4.0",
+		"react-scripts": "5.0.1",
+		"sass": "^1.58.3"
+	},
+	"scripts": {
+		"start": "react-scripts --openssl-legacy-provider start",
+		"build": "react-scripts --openssl-legacy-provider build",
+		"test": "react-scripts test --env=jsdom",
+		"eject": "react-scripts eject",
+		"lint": "yarn eslint src"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}
